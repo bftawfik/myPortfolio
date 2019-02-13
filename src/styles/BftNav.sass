@@ -1,0 +1,31 @@
+@import "colors"
+@import "variables"
+
+.BftNav
+  margin-bottom: 2em
+  .navLink
+    position: relative
+    cursor: pointer
+    padding-bottom: 4px
+    margin: 0
+    &:before
+      content: ' '
+      width: 100%
+      height: 1px
+      position: absolute
+      left: 0
+      bottom: 0
+      display: block
+      background-color: $bftPrimaryColor
+    &:after
+      content: ' '
+      width: 100%
+      height: 10px
+      position: absolute
+      left: 0
+      bottom: 5px
+      display: none
+      background-color: rgba(gray, 0.12)
+    &:hover
+      &:after
+        display: block
