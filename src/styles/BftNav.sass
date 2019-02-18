@@ -3,6 +3,17 @@
 
 .BftNav
   margin-bottom: 3rem
+  a
+    color: $bftSecondaryColor
+    text-decoration: none
+    &:hover
+      color: $bftSecondaryColorLinkHover
+      h4:after
+        display: block
+    &.selected
+      color: $bftSecondaryColorLinkHover
+      h4:after
+        display: block
   .navLink
     position: relative
     cursor: pointer
@@ -25,6 +36,3 @@
       bottom: 1rem/16*5
       display: none
       background-color: $bftSecondaryColorHighlight
-    &:hover
-      &:after
-        display: block
