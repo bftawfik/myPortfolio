@@ -5,7 +5,7 @@ class BftHeader extends Component {
   render() {
     return (
       <div className="BftHeader">
-        <img src="../img/logo.png" alt="logo"/>
+        <img src="/img/logo.png" alt="logo"/>
       </div>
     );
   }

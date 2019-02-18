@@ -1,4 +1,19 @@
+@import "./node_modules/vertical-rhythm-reset/dist/vertical-rhythm-reset"
+
 @import "colors"
-html, body
+@import "variables"
+
+$vr-font-size    : $BftFontSize
+$vr-line-height  : $BftLineHeight
+$vr-modular-scale: $BftModularScale
+$vr-grid-color   : $BftGridColor
+
+@include vr-reset()
+
+body
+  @if $gridShow == 1
+    @include vr-grid($lines: true, $highlight: true, $detail: false)
+
+html, body, #root
   background-color: $bftTrinityColor
   color: $bftSecondaryColor

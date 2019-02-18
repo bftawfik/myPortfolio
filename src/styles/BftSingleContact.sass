@@ -1,0 +1,21 @@
+@import "colors"
+@import "variables"
+
+
+.BftSingleContact
+  position: relative
+  &:before
+    content: ' '
+    display: block
+    position: absolute
+    top: 0.75em
+    let: 0
+    width: calc(100% - 2em)
+    height: 1.5em
+    background-color: $bftSecondaryColorHighlight
+  img
+    display: inline-block
+    margin: 0.71875em 1em 0.71875em 0
+  p
+    display: inline-block
+    margin: 0.75em 0
