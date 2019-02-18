@@ -10,8 +10,6 @@
 
 # production
 /build
-/public/img
-/src/imgSource
 
 # misc
 .DS_Store
