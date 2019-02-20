@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './styles/vr.scss';
 import './styles/Index.sass';
-// import App from './components/App';
+
 import * as serviceWorker from './serviceWorker';
 import BftRoutes from './BftRoutes'
+
 
 ReactDOM.render(<BftRoutes />, document.getElementById('root'));
 

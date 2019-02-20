@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../styles/BftProject.sass';
 
 class BftProject extends Component {
@@ -10,12 +11,11 @@ class BftProject extends Component {
         <img className="projectImg" src={this.props.data.projectImgPath} alt="BFTawfik Twitter Bot 2"/>
         <div className="links">
           <div className="tags">
-            {this.props.data.tags.map((tag, ndx) => <span key="ndx">{tag}</span>)}
-            <span>{this.props.data.tags[0]}</span>
+            {this.props.data.tags.map((tag, ndx) => <span key="ndx"><NavLink to={"/portofolio/"+tag} activeClassName="selected">{tag}</NavLink></span>)}
           </div>
           <div className="externalLinks">
-            {this.props.data.externalLinks.liveVersion ? <span><img src="/img/icons/live.png" alt="BFTawfik Twitter Bot 2"/></span> : null}
-            {this.props.data.externalLinks.github ? <span><img src="/img/icons/projectGithub.png" alt="BFTawfik Twitter Bot 2"/></span> : null}
+            {this.props.data.externalLinks.liveVersion ? <a href={this.props.data.externalLinks.liveVersion} target="_blank" rel="noopener noreferrer"><span><img src="/img/icons/live.png" alt="BFTawfik Twitter Bot 2"/></span></a> : null}
+            {this.props.data.externalLinks.github ? <a href={this.props.data.externalLinks.github} target="_blank" rel="noopener noreferrer"><span><img src="/img/icons/projectGithub.png" alt="BFTawfik Twitter Bot 2"/></span></a> : null}
           </div>
         </div>
       </div>

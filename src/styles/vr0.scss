@@ -1,0 +1,92 @@
+@import "./node_modules/vertical-rhythm-reset/dist/vertical-rhythm-reset";
+
+$vr-box-sizing   : border-box;
+$vr-font-size    : 14px;
+$vr-line-height  : 1.5;
+$vr-modular-scale: minor-third;
+$vr-grid-color   : rgb(233, 30, 99);
+
+$vr-breakpoints: (
+    60em: ( // 960px
+        font-size    : 16px,
+        line-height  : 1.4,
+        modular-scale: major-third,
+        grid-color   : purple
+    ),
+    90em: ( // 1440px
+        font-size    : 18px,
+        line-height  : 1.3,
+        modular-scale: perfect-fourth,
+        grid-color   : blue
+    )
+);
+
+$vr-helpers: (
+    font-size: (
+        count : 5,
+        prefix: "vr-font-size-"
+    ),
+    line-height: (
+        count : 10,
+        prefix: "vr-line-height-"
+    ),
+    height: (
+        count : 10,
+        prefix: "vr-height-"
+    ),
+    width: (
+        count : 10,
+        prefix: "vr-width-"
+    ),
+    margin: (
+        count : 5,
+        prefix: "vr-margin-"
+    ),
+    margin-top: (
+        count : 5,
+        prefix: "vr-margin-top-"
+    ),
+    margin-bottom: (
+        count : 5,
+        prefix: "vr-margin-bottom-"
+    ),
+    padding: (
+        count : 5,
+        prefix: "vr-padding-"
+    ),
+    padding-top: (
+        count : 5,
+        prefix: "vr-padding-top-"
+    ),
+    padding-bottom: (
+        count : 5,
+        prefix: "vr-padding-bottom-"
+    ),
+    offset: (
+        count : 5,
+        prefix: "vr-offset-"
+    ),
+    offset-top: (
+        count : 5,
+        prefix: "vr-offset-top-"
+    ),
+    offset-bottom: (
+        count : 5,
+        prefix: "vr-offset-bottom-"
+    )
+);
+
+@include vr-reset();
+
+@include vr-reset(
+  $box-sizing   : border-box,
+  $font-size    : 14px,
+  $line-height  : 1.5,
+  $modular-scale: minor-third,
+  $grid-color   : rgb(233, 30, 99),
+  $breakpoints  : $vr-breakpoints,
+  $helpers      : $vr-helpers
+);
+body {
+  @include vr-grid();
+}

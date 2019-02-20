@@ -2,15 +2,19 @@
 @import "variables"
 
 
-.BftSingleContact
+a.BftSingleContact
   position: relative
-  &:before
+  display: block
+  color: $bftSecondaryColor
+  text-decoration: none
+  overflow: auto
+  &:after
     content: ' '
     display: block
     position: absolute
     top: 0.75em
     let: 0
-    width: calc(100% - 2em)
+    width: 100%
     height: 1.5em
     background-color: $bftSecondaryColorHighlight
   img

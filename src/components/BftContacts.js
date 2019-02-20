@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
+
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import '../styles/BftContacts.sass';
 import BftSingleContact from './BftSingleContact';
 
@@ -13,17 +16,17 @@ class BftContacts extends Component {
           {
             label: "BFTawfik@gmail.com",
             icon: "/img/icons/email.png",
-            link: ""
+            link: "mailto:bftawfik@gmail.com"
           },
           {
             label: "+2 (012) 2763-3600",
             icon: "/img/icons/phone.png",
-            link: ""
+            link: "tel:+201227633600"
           },
           {
-            label: "BFTawfik.com",
+            label: "BFTawfik.github.io",
             icon: "/img/icons/website.png",
-            link: "http://www.bftawfik.com"
+            link: "https://bftawfik.github.io/"
           },
           {
             label: "Cairo - Egypt.",
@@ -35,22 +38,22 @@ class BftContacts extends Component {
           {
             label: "linkedin.com/in/bftawfik",
             icon: "/img/icons/linkedin.png",
-            link: "linkedin.com/in/bftawfik"
+            link: "https://www.linkedin.com/in/bftawfik"
           },
           {
             label: "github.com/bftawfik",
             icon: "/img/icons/github.png",
-            link: "github.com/bftawfik"
+            link: "https://www.github.com/bftawfik"
           },
           {
             label: "freecodecamp.org/bftawfik",
             icon: "/img/icons/freecodecamp.png",
-            link: "freecodecamp.org/bftawfik"
+            link: "https://www.freecodecamp.org/bftawfik"
           },
           {
             label: "codepen.io/bftawfik",
             icon: "/img/icons/codepen.png",
-            link: "codepen.io/bftawfik"
+            link: "https://www.codepen.io/bftawfik"
           }
         ]
       ]
@@ -60,16 +63,16 @@ class BftContacts extends Component {
 
   render() {
     return (
-      <Container className="BftContacts">
+      <Row className="BftContacts">
 
         {this.state.contactsGroups.map((group, ndx) => {
           return(
-            <div key={ndx} className="contactsGroups">
-              {group.map((contact, contactNdx) => <BftSingleContact data={contact}/>)}
-            </div>
+            <Col xl="12" key={ndx} className="contactsGroups"><Row>
+              {group.map((contact, contactNdx) => <Col md="6"><BftSingleContact data={contact}/></Col>)}
+            </Row></Col>
           )
         }) }
-      </Container>
+      </Row>
     );
   }
 }

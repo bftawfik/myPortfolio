@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
+
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import '../styles/BftInfoAndContact.sass';
 import BftInfo from './BftInfo'
 import BftContacts from './BftContacts'
@@ -8,10 +11,14 @@ class BftInfoAndContact extends Component {
 
   render() {
     return (
-      <Container className="BftInfoAndContact">
-        <BftInfo/>
-        <BftContacts/>
-      </Container>
+      <Row className="BftInfoAndContact">
+        <Col xl="12">
+          <BftInfo/>
+        </Col>
+        <Col xl="12">
+          <BftContacts/>
+        </Col>
+      </Row>
     );
   }
 }

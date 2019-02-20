@@ -11,6 +11,8 @@ import BftInfoAndContact from './components/BftInfoAndContact';
 
 import  Whoops404 from './components/Whoops404';
 
+import './styles/App.sass';
+
 const BftRoutes = ()=>(
     <BrowserRouter>
       <Container className="App">
@@ -19,6 +21,7 @@ const BftRoutes = ()=>(
         <Switch>
           <Route exact path="/" component={BftBio}/>
           <Route exact path="/portofolio" component={BftAllProjects}/>
+          <Route exact path="/portofolio/:filter" component={BftAllProjects}/>
           <Route exact path="/infoandcontact" component={BftInfoAndContact}/>
           <Route exact path="*" component={Whoops404}/>
         </Switch>
