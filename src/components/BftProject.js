@@ -8,7 +8,8 @@ class BftProject extends Component {
     return (
       <div className="BftProject">
         <h4>{this.props.data.title}</h4>
-        <img className="projectImg" src={this.props.data.projectImgPath} alt="BFTawfik Twitter Bot 2"/>
+        <img className="projectImg-xl" src={this.props.data.projectImgPath+"/8-line-height.jpg"} alt="BFTawfik Twitter Bot 2"/>
+        <img className="projectImg-sm" src={this.props.data.projectImgPath+"/5-line-height.jpg"} alt="BFTawfik Twitter Bot 2"/>
         <div className="links">
           <div className="tags">
             {this.props.data.tags.map((tag, ndx) => <span key="ndx"><NavLink to={"/portofolio/"+tag} activeClassName="selected">{tag}</NavLink></span>)}

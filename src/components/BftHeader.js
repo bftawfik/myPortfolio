@@ -9,8 +9,7 @@ class BftHeader extends Component {
   render() {
     return (
       <Row className="BftHeader">
-        <Col xl="12">
-          <img src="/img/logo.png" alt="logo"/>
+        <Col xl="12" className="logo">
         </Col>
       </Row>
     );

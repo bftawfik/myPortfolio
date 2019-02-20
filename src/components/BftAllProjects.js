@@ -15,7 +15,7 @@ class BftAllProjects extends Component {
       projects: [
         {
           title: "Twitter Bot 2",
-          projectImgPath: "/img/projects/bftawfikbot2.png",
+          projectImgPath: "/img/projects/bftawfikbot2",
           tags: ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AI"],
           externalLinks: {
             github: "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
@@ -24,7 +24,7 @@ class BftAllProjects extends Component {
         },
         {
           title: "Twitter Bot 2",
-          projectImgPath: "/img/projects/bftawfikbot2.png",
+          projectImgPath: "/img/projects/bftawfikbot2",
           tags: ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AU"],
           externalLinks: {
             github: "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
@@ -33,7 +33,7 @@ class BftAllProjects extends Component {
         },
         {
           title: "Twitter Bot 2",
-          projectImgPath: "/img/projects/bftawfikbot2.png",
+          projectImgPath: "/img/projects/bftawfikbot2",
           tags: ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AU"],
           externalLinks: {
             github: "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
@@ -42,7 +42,7 @@ class BftAllProjects extends Component {
         },
         {
           title: "Twitter Bot 2",
-          projectImgPath: "/img/projects/bftawfikbot2.png",
+          projectImgPath: "/img/projects/bftawfikbot2",
           tags: ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AU"],
           externalLinks: {
             github: "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
@@ -51,7 +51,7 @@ class BftAllProjects extends Component {
         },
         {
           title: "Twitter Bot 2",
-          projectImgPath: "/img/projects/bftawfikbot2.png",
+          projectImgPath: "/img/projects/bftawfikbot2",
           tags: ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AU"],
           externalLinks: {
             github: "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
@@ -60,7 +60,7 @@ class BftAllProjects extends Component {
         },
         {
           title: "Twitter Bot 2",
-          projectImgPath: "/img/projects/bftawfikbot2.png",
+          projectImgPath: "/img/projects/bftawfikbot2",
           tags: ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AU"],
           externalLinks: {
             github: "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
@@ -69,7 +69,7 @@ class BftAllProjects extends Component {
         },
         {
           title: "Twitter Bot 2",
-          projectImgPath: "/img/projects/bftawfikbot2.png",
+          projectImgPath: "/img/projects/bftawfikbot2",
           tags: ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AU"],
           externalLinks: {
             github: "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
