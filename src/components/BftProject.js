@@ -12,7 +12,7 @@ class BftProject extends Component {
         <img className="projectImg-sm" src={this.props.data.projectImgPath+"/5-line-height.jpg"} alt="BFTawfik Twitter Bot 2"/>
         <div className="links">
           <div className="tags">
-            {this.props.data.tags.map((tag, ndx) => <span key="ndx"><NavLink to={"/portofolio/"+tag} activeClassName="selected">{tag}</NavLink></span>)}
+            {this.props.data.tags.map((tag, ndx) => <span key={ndx}><NavLink to={"/portofolio/"+tag} activeClassName="selected">{tag}</NavLink></span>)}
           </div>
           <div className="externalLinks">
             {this.props.data.externalLinks.liveVersion ? <a href={this.props.data.externalLinks.liveVersion} target="_blank" rel="noopener noreferrer"><span><img src="/img/icons/live.png" alt="BFTawfik Twitter Bot 2"/></span></a> : null}

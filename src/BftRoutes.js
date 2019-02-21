@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+import AllData from './json/data.json';
 
 import Container from 'react-bootstrap/Container';
 
@@ -13,24 +15,35 @@ import  Whoops404 from './components/Whoops404';
 
 import './styles/App.sass';
 
-const BftRoutes = ()=>(
-    <BrowserRouter>
-      <Container className="App">
-        <Route exact path="*" component={BftHeader}/>
-        <Route exact path="*" component={BftNav}/>
-        <Switch>
-          <Route exact path="/" component={BftBio}/>
-          <Route exact path="/portofolio" component={BftAllProjects}/>
-          <Route exact path="/portofolio/:filter" component={BftAllProjects}/>
-          <Route exact path="/infoandcontact" component={BftInfoAndContact}/>
-          <Route exact path="*" component={Whoops404}/>
-        </Switch>
-      </Container>
+class BftRoutes extends Component {
 
-    </BrowserRouter>
-)
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      items: []
+    };
+  }
+
+  render(){
+    // console.log(AllData.contactsGroups)
+    return(
+      <BrowserRouter>
+        <Container className="App">
+          <Route exact path="*" component={BftHeader}/>
+          <Route exact path="*" component={BftNav}/>
+          <Switch>
+            <Route exact path="/" component={BftBio}/>
+            <Route exact path="/portofolio" render={(props) => <BftAllProjects {...props} projectsData={AllData.projects}/>}/>
+            <Route exact path="/portofolio/:filter" render={(props) => <BftAllProjects {...props} projectsData={AllData.projects}/>}/>
+            <Route exact path="/infoandcontact" render={(props) => <BftInfoAndContact {...props} contactsData={AllData.contactsGroups}/>}/>
+            <Route exact path="*" component={Whoops404}/>
+          </Switch>
+        </Container>
+      </BrowserRouter>
+    )
+  }
+}
 
 export default BftRoutes
-// <Route exact path="/" component={App}/>
-// <Route exact path="/:filter" component={App}/>
-// <Route exact path="/:filter/:filter2" component={App}/>

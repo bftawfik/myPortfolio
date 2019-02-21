@@ -14,8 +14,8 @@ class BftInfo extends Component {
           <h4>Bishoy Farouk Tawfik</h4>
         </Col>
         <Col xl="12">
-          <p>An Experienced Web developer since 2008, Working on building interactive web applications.<p>
-          </p>Keen to improve my knowledge and learn new useful techniques, and push the limits of my skills.</p>
+          <p>An Experienced Web developer since 2008, Working on building interactive web applications.</p>
+          <p>Keen to improve my knowledge and learn new useful techniques, and push the limits of my skills.</p>
         </Col>
       </Row>
     );
