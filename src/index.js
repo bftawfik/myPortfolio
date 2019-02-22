@@ -5,8 +5,6 @@ import './styles/Index.sass';
 
 import * as serviceWorker from './serviceWorker';
 import BftRoutes from './BftRoutes'
-
-
 ReactDOM.render(<BftRoutes />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

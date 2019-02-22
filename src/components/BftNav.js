@@ -17,8 +17,8 @@ class BftNav extends Component {
           </NavLink>
         </Col>
         <Col md="4" sm="12">
-          <NavLink to="/portofolio" activeClassName="selected">
-            <h4 className="navLink">Portofolio</h4>
+          <NavLink to="/portfolio" activeClassName="selected">
+            <h4 className="navLink">Portfolio</h4>
           </NavLink>
         </Col>
         <Col md="4" sm="12">

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-
-import AllData from './json/data.json';
-
+import { HashRouter, Switch, Route } from "react-router-dom";
+import createBrowserHistory from 'history/createBrowserHistory';
 import Container from 'react-bootstrap/Container';
 
 import BftHeader from './components/BftHeader';
@@ -20,28 +18,50 @@ class BftRoutes extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      error: null,
-      isLoaded: false,
-      items: []
+      pages: {}
     };
+  }
+
+  componentDidMount(){
+    let defaultOptions = {
+      url:'',
+      method:'GET',
+      mode: 'cors',
+      headers:{
+        'Access-Control-Allow-Origin':'*'
+      },
+      body:null,
+    };
+    fetch('https://bftawfik-github-io.herokuapp.com/', defaultOptions)
+    .then(function(response) {
+      return response.text();
+    })
+    .then(function(text) {
+      console.log(JSON.parse(text))
+      this.setState({pages : JSON.parse(text)});
+    }.bind(this))
+    .catch(function(error) {
+      console.log('Request failed', error)
+    });
   }
 
   render(){
     // console.log(AllData.contactsGroups)
+    const history = createBrowserHistory()
     return(
-      <BrowserRouter>
+      <HashRouter history={history}>
         <Container className="App">
           <Route exact path="*" component={BftHeader}/>
           <Route exact path="*" component={BftNav}/>
           <Switch>
-            <Route exact path="/" component={BftBio}/>
-            <Route exact path="/portofolio" render={(props) => <BftAllProjects {...props} projectsData={AllData.projects}/>}/>
-            <Route exact path="/portofolio/:filter" render={(props) => <BftAllProjects {...props} projectsData={AllData.projects}/>}/>
-            <Route exact path="/infoandcontact" render={(props) => <BftInfoAndContact {...props} contactsData={AllData.contactsGroups}/>}/>
-            <Route exact path="*" component={Whoops404}/>
+            <Route exact path="/" render={(props) => <BftBio {...props} pageData={this.state.pages.home}/>}/>
+            <Route exact path="/portfolio" render={(props) => <BftAllProjects {...props} pageData={this.state.pages.portfolio}/>}/>
+            <Route exact path="/portfolio/:filter" render={(props) => <BftAllProjects {...props} pageData={this.state.pages.portfolio}/>}/>
+            <Route exact path="/infoandcontact" render={(props) => <BftInfoAndContact {...props}  pageData={this.state.pages.infoandcontact}/>}/>
+            <Route component={Whoops404}/>
           </Switch>
         </Container>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }

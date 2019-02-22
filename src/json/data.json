@@ -1,86 +1,139 @@
 {
-  "projects": [
-    {
-      "title": "Twitter Bot 2",
-      "projectImgPath": "/img/projects/bftawfikbot2",
-      "tags": ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AI"],
-      "externalLinks": {
-        "github": "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
-        "liveVersion": "https://twitter.com/2Bftawfik"
-      }
+  "pages": {
+    "home": {
+      "bio": [
+        "I'm a newly technology shifted Front-end developer, controlled with my passion towards programming, with a background in programming since 2008.",
+        "Nocking every door with a goal of gaining knowledge and experience.",
+        "Hope to find my way to be the best developer I can be.",
+        "Seeking new challenges and opportunities to build myself.",
+        "I have two passions, my Family and the programming.",
+        "I'm Always trying to find a solutions through programming to any problem I had.",
+        "I hope to find the right place to reach my full potential."
+      ],
+      "quotes": [
+        {
+          "body": "Failure Is Success If We Learn From It.",
+          "owner": "Malcolm Forbes"
+        },
+        {
+          "body": "Never Stop Learning, Because Life Never Stops Teaching.",
+          "owner": ""
+        },
+        {
+          "body": "You'll Never Learn If You Don't Make Mistakes.",
+          "owner": ""
+        },
+        {
+          "body": "I've Learned That I Still Have A Lot To Learn.",
+          "owner": "Maya Angelou"
+        },
+        {
+          "body": "Sometimes You Win, Sometimes You Learn.",
+          "owner": "John C. Maxwell"
+        },
+        {
+          "body": "Don't Waste A Good Mistake. Learn From It.",
+          "owner": "Robert Kiyosaki"
+        },
+        {
+          "body": "Live As If You Were To Die Tomorrow. Learn As If You Were To Live Forever.",
+          "owner": "Mahatma Gandhi"
+        }
+      ]
     },
-    {
-      "title": "Twitter Bot 2",
-      "projectImgPath": "/img/projects/bftawfikbot2",
-      "tags": ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AI"],
-      "externalLinks": {
-        "github": "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
-        "liveVersion": "https://twitter.com/2Bftawfik"
-      }
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Twitter Bot 2",
+          "projectImgPath": "/img/projects/bftawfikbot2",
+          "tags": ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Github", "Illustrator"],
+          "externalLinks": {
+            "github": "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
+            "liveVersion": "https://twitter.com/2Bftawfik"
+          }
+        },
+        {
+          "title": "Canvas Clock",
+          "projectImgPath": "/img/projects/canvasclock",
+          "tags": ["Javascript", "HTML5", "Canvas", "Pug", "Css", "Sass", "jQuery", "Git", "Github"],
+          "externalLinks": {
+            "github": "https://github.com/bftawfik/canvasClock",
+            "liveVersion": "https://codepen.io/bftawfik/full/oBBvKY"
+          }
+        },
+        {
+          "title": "Globby HTML5 Game",
+          "projectImgPath": "/img/projects/globbyhtml5game",
+          "tags": ["Javascript", "HTML5", "Canvas", "Pug", "Css", "Sass", "jQuery", "Git", "Github"],
+          "externalLinks": {
+            "github": "https://github.com/bftawfik/globbyGame",
+            "liveVersion": "https://codepen.io/bftawfik/pen/VpZaPX"
+          }
+        },
+        {
+          "title": "Hawadeet.net",
+          "projectImgPath": "/img/projects/hawadeetnet",
+          "tags": ["Javascript", "Wordpress", "HTML5", "Css", "Photoshop"],
+          "externalLinks": {
+            "liveVersion": "http://www.hawadeet.net/hawadeet/"
+          }
+        }
+      ]
     },
-    {
-      "title": "Twitter Bot 2",
-      "projectImgPath": "/img/projects/bftawfikbot2",
-      "tags": ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AI"],
-      "externalLinks": {
-        "github": "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
-        "liveVersion": "https://twitter.com/2Bftawfik"
-      }
-    },
-    {
-      "title": "Twitter Bot 2",
-      "projectImgPath": "/img/projects/bftawfikbot2",
-      "tags": ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Githup", "Illustrator", "AI"],
-      "externalLinks": {
-        "github": "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
-        "liveVersion": "https://twitter.com/2Bftawfik"
-      }
+    "infoandcontact": {
+      "info" :{
+        "name": "Bishoy Farouk Tawfik",
+        "data": [
+          "An Experienced Web developer since 2008, Working on building interactive web applications.",
+          "Keen to improve my knowledge and learn new useful techniques, and push the limits of my skills."
+        ]
+      },
+      "contactsGroups": [
+        [
+          {
+            "label": "BFTawfik@gmail.com",
+            "icon": "/img/icons/email.png",
+            "link": "mailto:bftawfik@gmail.com"
+          },
+          {
+            "label": "+2 (012) 2763-3600",
+            "icon": "/img/icons/phone.png",
+            "link": "tel:+201227633600"
+          },
+          {
+            "label": "BFTawfik.github.io",
+            "icon": "/img/icons/website.png",
+            "link": "https://bftawfik.github.io/"
+          },
+          {
+            "label": "Cairo - Egypt.",
+            "icon": "/img/icons/location.png",
+            "link": "https://www.google.com/maps/@30.0594838,31.2234448,13z"
+          }
+        ],
+        [
+          {
+            "label": "linkedin.com/in/bftawfik",
+            "icon": "/img/icons/linkedin.png",
+            "link": "https://www.linkedin.com/in/bftawfik"
+          },
+          {
+            "label": "github.com/bftawfik",
+            "icon": "/img/icons/github.png",
+            "link": "https://www.github.com/bftawfik"
+          },
+          {
+            "label": "freecodecamp.org/bftawfik",
+            "icon": "/img/icons/freecodecamp.png",
+            "link": "https://www.freecodecamp.org/bftawfik"
+          },
+          {
+            "label": "codepen.io/bftawfik",
+            "icon": "/img/icons/codepen.png",
+            "link": "https://www.codepen.io/bftawfik"
+          }
+        ]
+      ]
     }
-  ],
-  "contactsGroups": [
-    [
-      {
-        "label": "BFTawfik@gmail.com",
-        "icon": "/img/icons/email.png",
-        "link": "mailto:bftawfik@gmail.com"
-      },
-      {
-        "label": "+2 (012) 2763-3600",
-        "icon": "/img/icons/phone.png",
-        "link": "tel:+201227633600"
-      },
-      {
-        "label": "BFTawfik.github.io",
-        "icon": "/img/icons/website.png",
-        "link": "https://bftawfik.github.io/"
-      },
-      {
-        "label": "Cairo - Egypt.",
-        "icon": "/img/icons/location.png",
-        "link": "https://www.google.com/maps/@30.0594838,31.2234448,13z"
-      }
-    ],
-    [
-      {
-        "label": "linkedin.com/in/bftawfik",
-        "icon": "/img/icons/linkedin.png",
-        "link": "https://www.linkedin.com/in/bftawfik"
-      },
-      {
-        "label": "github.com/bftawfik",
-        "icon": "/img/icons/github.png",
-        "link": "https://www.github.com/bftawfik"
-      },
-      {
-        "label": "freecodecamp.org/bftawfik",
-        "icon": "/img/icons/freecodecamp.png",
-        "link": "https://www.freecodecamp.org/bftawfik"
-      },
-      {
-        "label": "codepen.io/bftawfik",
-        "icon": "/img/icons/codepen.png",
-        "link": "https://www.codepen.io/bftawfik"
-      }
-    ]
-  ]
+  }
 }

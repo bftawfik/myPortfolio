@@ -10,15 +10,13 @@ import BftContacts from './BftContacts'
 class BftInfoAndContact extends Component {
 
   render() {
-
-    // console.log(this.props.contactsData)
     return (
       <Row className="BftInfoAndContact">
         <Col xl="12">
-          <BftInfo/>
+          <BftInfo infoData={this.props.pageData ? this.props.pageData.info : null}/>
         </Col>
         <Col xl="12">
-          <BftContacts contactsData={this.props.contactsData}/>
+          <BftContacts contactsData={this.props.pageData ? this.props.pageData.contactsGroups : null}/>
         </Col>
       </Row>
     );

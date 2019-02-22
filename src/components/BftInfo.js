@@ -11,11 +11,10 @@ class BftInfo extends Component {
     return (
       <Row className="BftInfo">
         <Col xl="12">
-          <h4>Bishoy Farouk Tawfik</h4>
+          <h4>{this.props.infoData ? this.props.infoData.name : ""}</h4>
         </Col>
         <Col xl="12">
-          <p>An Experienced Web developer since 2008, Working on building interactive web applications.</p>
-          <p>Keen to improve my knowledge and learn new useful techniques, and push the limits of my skills.</p>
+          {this.props.infoData ? this.props.infoData.data.map((p, ndx) => <p key={ndx}>{p}</p>) : ""}
         </Col>
       </Row>
     );

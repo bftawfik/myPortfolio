@@ -18,13 +18,13 @@ class BftContacts extends Component {
     // console.log(this.props.contactsData)
     return (
       <Row className="BftContacts">
-        {this.props.contactsData.map((group, ndx) => {
+        {this.props.contactsData ? this.props.contactsData.map((group, ndx) => {
           return(
             <Col xl="12" key={ndx} className="contactsGroups"><Row>
               {group.map((contact, contactNdx) => <Col md="6"key={contactNdx}><BftSingleContact data={contact}/></Col>)}
             </Row></Col>
           )
-        }) }
+        }) : ""}
       </Row>
     );
   }
