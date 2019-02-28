@@ -16,6 +16,9 @@ class BftInfo extends Component {
         <Col xl="12">
           {this.props.infoData ? this.props.infoData.data.map((p, ndx) => <p key={ndx}>{p}</p>) : ""}
         </Col>
+        <Col xl="12">
+          <a href={this.props.infoData ? this.props.infoData.resume : ""}><h4>Resume (C.V.)</h4></a>
+        </Col>
       </Row>
     );
   }
