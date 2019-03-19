@@ -8,6 +8,7 @@ import BftNav from './components/BftNav';
 import BftBio from './components/BftBio';
 import BftAllProjects from './components/BftAllProjects';
 import BftInfoAndContact from './components/BftInfoAndContact';
+import BftFooter from './components/BftFooter';
 
 import  Whoops404 from './components/Whoops404';
 
@@ -60,6 +61,7 @@ class BftRoutes extends Component {
             <Route exact path="/infoandcontact" render={(props) => <BftInfoAndContact {...props}  pageData={this.state.pages.infoandcontact}/>}/>
             <Route component={Whoops404}/>
           </Switch>
+          <Route exact path="*" component={BftFooter}/>
         </Container>
       </HashRouter>
     )
