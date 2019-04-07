@@ -4,14 +4,16 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import '../styles/BftInfoAndContact.sass';
-import BftInfo from './BftInfo'
-import BftContacts from './BftContacts'
+import BftInfo from './BftInfo';
+import BftContacts from './BftContacts';
+import BftPreloader from './BftPreloader'
 
 class BftInfoAndContact extends Component {
 
   render() {
     return (
       <Row className="BftInfoAndContact">
+        {!this.props.pageData ? <Col xl="12"><BftPreloader/></Col> : null}
         <Col xl="12">
           <BftInfo infoData={this.props.pageData ? this.props.pageData.info : null}/>
         </Col>
