@@ -1,139 +1,205 @@
 {
-  "pages": {
-    "home": {
-      "bio": [
-        "I'm a newly technology shifted Front-end developer, controlled with my passion towards programming, with a background in programming since 2008.",
-        "Nocking every door with a goal of gaining knowledge and experience.",
-        "Hope to find my way to be the best developer I can be.",
-        "Seeking new challenges and opportunities to build myself.",
-        "I have two passions, my Family and the programming.",
-        "I'm Always trying to find a solutions through programming to any problem I had.",
-        "I hope to find the right place to reach my full potential."
-      ],
-      "quotes": [
-        {
-          "body": "Failure Is Success If We Learn From It.",
-          "owner": "Malcolm Forbes"
-        },
-        {
-          "body": "Never Stop Learning, Because Life Never Stops Teaching.",
-          "owner": ""
-        },
-        {
-          "body": "You'll Never Learn If You Don't Make Mistakes.",
-          "owner": ""
-        },
-        {
-          "body": "I've Learned That I Still Have A Lot To Learn.",
-          "owner": "Maya Angelou"
-        },
-        {
-          "body": "Sometimes You Win, Sometimes You Learn.",
-          "owner": "John C. Maxwell"
-        },
-        {
-          "body": "Don't Waste A Good Mistake. Learn From It.",
-          "owner": "Robert Kiyosaki"
-        },
-        {
-          "body": "Live As If You Were To Die Tomorrow. Learn As If You Were To Live Forever.",
-          "owner": "Mahatma Gandhi"
-        }
-      ]
+  "pages" : {
+    "home" : {
+      "bio" : [ "I'm a newly technology shifted Front-end developer, controlled with my passion towards programming, with a background in programming since 2008.", "Nocking every door with a goal of gaining knowledge and experience.", "Hope to find my way to be the best developer I can be.", "Seeking new challenges and opportunities to build myself.", "I have two passions, my Family and the programming.", "I'm Always trying to find solutions through programming to any problem I had.", "I hope to find the right place to reach my full potential." ],
+      "quotes" : [ {
+        "body" : "Failure Is Success If We Learn From It.",
+        "owner" : "Malcolm Forbes"
+      }, {
+        "body" : "Never Stop Learning, Because Life Never Stops Teaching.",
+        "owner" : ""
+      }, {
+        "body" : "You'll Never Learn If You Don't Make Mistakes.",
+        "owner" : ""
+      }, {
+        "body" : "I've Learned That I Still Have A Lot To Learn.",
+        "owner" : "Maya Angelou"
+      }, {
+        "body" : "Sometimes You Win, Sometimes You Learn.",
+        "owner" : "John C. Maxwell"
+      }, {
+        "body" : "Don't Waste A Good Mistake. Learn From It.",
+        "owner" : "Robert Kiyosaki"
+      }, {
+        "body" : "Live As If You Were To Die Tomorrow. Learn As If You Were To Live Forever.",
+        "owner" : "Mahatma Gandhi"
+      } ]
     },
-    "portfolio": {
-      "projects": [
-        {
-          "title": "Twitter Bot 2",
-          "projectImgPath": "/img/projects/bftawfikbot2",
-          "tags": ["Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Github", "Illustrator"],
-          "externalLinks": {
-            "github": "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
-            "liveVersion": "https://twitter.com/2Bftawfik"
-          }
-        },
-        {
-          "title": "Canvas Clock",
-          "projectImgPath": "/img/projects/canvasclock",
-          "tags": ["Javascript", "HTML5", "Canvas", "Pug", "Css", "Sass", "jQuery", "Git", "Github"],
-          "externalLinks": {
-            "github": "https://github.com/bftawfik/canvasClock",
-            "liveVersion": "https://codepen.io/bftawfik/full/oBBvKY"
-          }
-        },
-        {
-          "title": "Globby HTML5 Game",
-          "projectImgPath": "/img/projects/globbyhtml5game",
-          "tags": ["Javascript", "HTML5", "Canvas", "Pug", "Css", "Sass", "jQuery", "Git", "Github"],
-          "externalLinks": {
-            "github": "https://github.com/bftawfik/globbyGame",
-            "liveVersion": "https://codepen.io/bftawfik/pen/VpZaPX"
-          }
-        },
-        {
-          "title": "Hawadeet.net",
-          "projectImgPath": "/img/projects/hawadeetnet",
-          "tags": ["Javascript", "Wordpress", "HTML5", "Css", "Photoshop"],
-          "externalLinks": {
-            "liveVersion": "http://www.hawadeet.net/hawadeet/"
-          }
-        }
-      ]
+    "infoandcontact" : {
+      "contactsGroups" : [ [ {
+        "icon" : "/img/icons/email.png",
+        "label" : "BFTawfik@gmail.com",
+        "link" : "mailto:bftawfik@gmail.com"
+      }, {
+        "icon" : "/img/icons/phone.png",
+        "label" : "+2 (012) 2763-3600",
+        "link" : "tel:+201227633600"
+      }, {
+        "icon" : "/img/icons/twitter.png",
+        "label" : "twitter.com/BFTawfik",
+        "link" : "https://twitter.com/BFTawfik"
+      }, {
+        "icon" : "/img/icons/location.png",
+        "label" : "Cairo - Egypt.",
+        "link" : "https://www.google.com/maps/@30.0594838,31.2234448,13z"
+      } ], [ {
+        "icon" : "/img/icons/linkedin.png",
+        "label" : "linkedin.com/in/bftawfik",
+        "link" : "https://www.linkedin.com/in/bftawfik"
+      }, {
+        "icon" : "/img/icons/github.png",
+        "label" : "github.com/bftawfik",
+        "link" : "https://www.github.com/bftawfik"
+      }, {
+        "icon" : "/img/icons/freecodecamp.png",
+        "label" : "freecodecamp.org/bftawfik",
+        "link" : "https://www.freecodecamp.org/bftawfik"
+      }, {
+        "icon" : "/img/icons/codepen.png",
+        "label" : "codepen.io/bftawfik",
+        "link" : "https://www.codepen.io/bftawfik"
+      } ], [ {
+        "icon" : "/img/icons/resume.png",
+        "label" : "Resume (C.V.)",
+        "link" : "/docs/Bishoy_Farouk_Resume.pdf"
+      }, {
+        "icon" : "/img/icons/website.png",
+        "label" : "BFTawfik.github.io",
+        "link" : "https://bftawfik.github.io/"
+      } ] ],
+      "info" : {
+        "data" : [ "I'm a problem solver with an experience in coding.", "Keen to improve my knowledge and learn new useful techniques, and push the limits of my skills.", "", "Date of birth: 26/8/1980.", "Place of birth: Giza.", "Nationality: Egyptian.", "Marital Status: Happily Married." ],
+        "name" : "Bishoy Farouk Tawfik",
+        "resume" : "/docs/Bishoy_Farouk_Resume.pdf"
+      }
     },
-    "infoandcontact": {
-      "info" :{
-        "name": "Bishoy Farouk Tawfik",
-        "data": [
-          "An Experienced Web developer since 2008, Working on building interactive web applications.",
-          "Keen to improve my knowledge and learn new useful techniques, and push the limits of my skills."
-        ]
-      },
-      "contactsGroups": [
-        [
-          {
-            "label": "BFTawfik@gmail.com",
-            "icon": "/img/icons/email.png",
-            "link": "mailto:bftawfik@gmail.com"
-          },
-          {
-            "label": "+2 (012) 2763-3600",
-            "icon": "/img/icons/phone.png",
-            "link": "tel:+201227633600"
-          },
-          {
-            "label": "BFTawfik.github.io",
-            "icon": "/img/icons/website.png",
-            "link": "https://bftawfik.github.io/"
-          },
-          {
-            "label": "Cairo - Egypt.",
-            "icon": "/img/icons/location.png",
-            "link": "https://www.google.com/maps/@30.0594838,31.2234448,13z"
-          }
-        ],
-        [
-          {
-            "label": "linkedin.com/in/bftawfik",
-            "icon": "/img/icons/linkedin.png",
-            "link": "https://www.linkedin.com/in/bftawfik"
-          },
-          {
-            "label": "github.com/bftawfik",
-            "icon": "/img/icons/github.png",
-            "link": "https://www.github.com/bftawfik"
-          },
-          {
-            "label": "freecodecamp.org/bftawfik",
-            "icon": "/img/icons/freecodecamp.png",
-            "link": "https://www.freecodecamp.org/bftawfik"
-          },
-          {
-            "label": "codepen.io/bftawfik",
-            "icon": "/img/icons/codepen.png",
-            "link": "https://www.codepen.io/bftawfik"
-          }
-        ]
-      ]
+    "portfolio" : {
+      "projects" : [ {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
+          "liveVersion" : "https://twitter.com/2Bftawfik"
+        },
+        "order" : "1",
+        "projectImgPath" : "/img/projects/bftawfikbot2",
+        "tags" : [ "Javascript", "Node.js", "Twit", "Twitter Api", "Git", "Github", "Illustrator" ],
+        "title" : "Twitter Bot 2"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/myPortofolio",
+          "liveVersion" : "https://bftawfik.github.io"
+        },
+        "order" : "2",
+        "projectImgPath" : "/img/projects/myportfolio",
+        "tags" : [ "Javascript", "Node.js", "React.js", "React Router", "Git", "Github", "Illustrator", "Bootstrap", "Express", "Firebase", "Sass" ],
+        "title" : "My Portfolio"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/mvcTodos",
+          "liveVersion" : "https://bftawfik.github.io/mvcTodos/"
+        },
+        "order" : "3",
+        "projectImgPath" : "/img/projects/mvctodos",
+        "tags" : [ "Javascript", "HTML5", "Css", "Github" ],
+        "title" : "MVC Todos"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/memoryGame",
+          "liveVersion" : "https://bftawfik.github.io/memoryGame/"
+        },
+        "order" : "4",
+        "projectImgPath" : "/img/projects/memorygame",
+        "tags" : [ "Game", "Javascript", "HTML5", "Css", "Github", "Phaser.js", "Photoshop", "Audition" ],
+        "title" : "Memory Game Using Phaser.js"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/fend-project-memory-game",
+          "liveVersion" : "https://bftawfik.github.io/fend-project-memory-game/"
+        },
+        "order" : "5",
+        "projectImgPath" : "/img/projects/memorygame2",
+        "tags" : [ "Game", "Javascript", "DOM", "HTML5", "Css", "Git", "Github" ],
+        "title" : "Udacity Memory Game Project"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/globbyGame",
+          "liveVersion" : "https://bftawfik.github.io/globbygame/"
+        },
+        "order" : "6",
+        "projectImgPath" : "/img/projects/globbyhtml5game",
+        "tags" : [ "Game", "Javascript", "HTML5", "Canvas", "Pug", "Css", "Sass", "jQuery", "Git", "Github" ],
+        "title" : "Globby HTML5 Game"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/spaceWarGame",
+          "liveVersion" : "https://bftawfik.github.io/spaceWarGame/"
+        },
+        "order" : "7",
+        "projectImgPath" : "/img/projects/spacewargame",
+        "tags" : [ "Game", "Javascript", "HTML5", "Canvas", "Css", "Github", "Photoshop", "Illustrator", "Audition" ],
+        "title" : "Space War Game"
+      }, {
+        "externalLinks" : {
+          "liveVersion" : "http://www.hawadeet.net/hawadeet/"
+        },
+        "order" : "8",
+        "projectImgPath" : "/img/projects/hawadeetnet",
+        "tags" : [ "Javascript", "Wordpress", "HTML5", "Css", "Photoshop" ],
+        "title" : "Hawadeet.net"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/redRidingHoodGame",
+          "liveVersion" : "https://bftawfik.github.io/redRidingHoodGame/"
+        },
+        "order" : "9",
+        "projectImgPath" : "/img/projects/redridinghoodgame",
+        "tags" : [ "Game", "Javascript", "HTML5", "Canvas", "Css", "Github", "Photoshop", "Illustrator", "Audition" ],
+        "title" : "Red Riding Hood Game"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/piratesEscapeGame",
+          "liveVersion" : "https://bftawfik.github.io/piratesEscapeGame/"
+        },
+        "order" : "10",
+        "projectImgPath" : "/img/projects/piratesescapegame",
+        "tags" : [ "Game", "Javascript", "HTML5", "Canvas", "Css", "Github", "Photoshop", "Illustrator", "Audition" ],
+        "title" : "Pirates Escape Game"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/rabbitrungame",
+          "liveVersion" : "https://bftawfik.github.io/rabbitrungame/"
+        },
+        "order" : "11",
+        "projectImgPath" : "/img/projects/rabbitrungame",
+        "tags" : [ "Unfinished", "Game", "Javascript", "HTML5", "Canvas", "Phaser.js", "Css", "Github", "Photoshop", "Illustrator", "Audition" ],
+        "title" : "Unfinished Rabbit Run Game"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/thegraveescapegame",
+          "liveVersion" : "https://bftawfik.github.io/thegraveescapegame/"
+        },
+        "order" : "12",
+        "projectImgPath" : "/img/projects/thegraveescapegame",
+        "tags" : [ "Unfinished", "Game", "Javascript", "HTML5", "Canvas", "Phaser.js", "Css", "Github", "Photoshop", "Illustrator", "Audition" ],
+        "title" : "Unfinished Pirates Escape Game"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/udacity-Portfolio-Site-project",
+          "liveVersion" : "https://bftawfik.github.io/udacity-Portfolio-Site-project/"
+        },
+        "order" : "13",
+        "projectImgPath" : "/img/projects/udacityportfolio",
+        "tags" : [ "HTML5", "Css", "Github" ],
+        "title" : "Udacity Portfolio Project"
+      }, {
+        "externalLinks" : {
+          "github" : "https://github.com/bftawfik/canvasClock",
+          "liveVersion" : "https://bftawfik.github.io/canvasClock/"
+        },
+        "order" : "14",
+        "projectImgPath" : "/img/projects/canvasclock",
+        "tags" : [ "Javascript", "HTML5", "Canvas", "Pug", "Css", "Sass", "jQuery", "Git", "Github" ],
+        "title" : "Canvas Clock"
+      } ]
     }
   }
 }
