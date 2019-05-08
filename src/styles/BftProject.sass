@@ -2,45 +2,93 @@
 @import "variables"
 
 .BftProject
-  margin: 3em auto
   background-color: $bftSecondaryColorHighlight
-  padding-left: 1em
-  padding-right: 1em
-  padding-bottom: 1.5em
-  text-align: center
-  @media screen and (max-width: $bft-grid-breakpoints-sm)
-    overflow-x: hidden
-  h4
-    margin-bottom: 0
-  .projectImg-xl
-    display: block
-    margin: 0 auto
-    @media screen and (max-width: $bft-grid-breakpoints-xl)
-      margin: 0 -1em
-    @media screen and (max-width: $bft-grid-breakpoints-lg)
-      margin: 0 auto
-    @media screen and (max-width: $bft-grid-breakpoints-sm)
-      display: none
-  .projectImg-sm
-    display: none
-    margin: 0 auto
-    @media screen and (max-width: $bft-grid-breakpoints-sm)
-      display: block
-  .links
+  position: relative
+  cursor: pointer
+  .projectOverlay
+    background-color: $bftTrinityColor
+    height: 100%
+    width: 100%
     overflow: auto
-    .tags
-      float: left
-      span
-        font-size: 0.75rem
-        margin-right: 0.5em
-        text-decoration: underline
-        display: inline-block
-        a
-          color: $bftSecondaryColor
-    .externalLinks
-      float: right
-      span
-        margin-left: 0.5em
+    display: block
+    position: absolute
+    padding: 1.5em 1em
+    @media screen and (max-width: $bft-grid-breakpoints-sm)
+      overflow-x: hidden
+    &.hided
+      display: none
+    .projectOverlayData
+      box-sizing: border-box
+      background-color: $bftSecondaryColorHighlight
+      border: 1px solid $bftPrimaryColor
+      padding: 1.4375em 1em
+      height: 100%
+      width: 100%
+      display: block
+      text-align: center
+      .links
+        .externalLinks
+          a
+            color: $bftSecondaryColor
+            display: inline-block
+            width: 46%
+            height: 100%
+            margin: 0 2%
+            background-color: $bftSecondaryColorHighlight
+            border: 2px solid $bftPrimaryColor
+            border-radius: 8px
+            padding: 0.625em 0
+            box-sizing: border-box
+            @media screen and (max-width: $bft-grid-breakpoints-sm)
+              font-size: 0.75rem
+        .tags
+          margin-top: 1.5em
+          span
+            font-size: 0.75rem
+            margin-right: 0.5em
+            text-decoration: underline
+            display: inline-block
+            a
+              color: $bftSecondaryColor
+  .projectData
+    margin: 3em auto
+    padding-left: 1em
+    padding-right: 1em
+    padding-bottom: 1.5em
+    text-align: center
+    height: 100%
+    width: 100%
+    // visibility: hidden
+    h4
+      margin-bottom: 0
+    .projectImg-xl
+      display: inline-block
+      @media screen and (max-width: $bft-grid-breakpoints-xl)
+        margin: 0 -1em
+      @media screen and (max-width: $bft-grid-breakpoints-lg)
+        margin: 0 auto
+      @media screen and (max-width: $bft-grid-breakpoints-sm)
+        display: none
+    .projectImg-sm
+      display: none
+      margin: 0 auto
+      @media screen and (max-width: $bft-grid-breakpoints-sm)
+        display: block
+    .links
+      overflow: auto
+      .tags
+        float: left
+        span
+          font-size: 0.75rem
+          margin-right: 0.5em
+          text-decoration: underline
+          display: inline-block
+          a
+            color: $bftSecondaryColor
+      .externalLinks
+        float: right
+        span
+          margin-left: 0.5em
 // .logo
 //   height: 15em
 //   background:

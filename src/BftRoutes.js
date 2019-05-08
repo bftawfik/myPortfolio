@@ -38,7 +38,7 @@ class BftRoutes extends Component {
       return response.text();
     })
     .then(function(text) {
-      console.log(JSON.parse(text))
+      // console.log(JSON.parse(text))
       this.setState({pages : JSON.parse(text)});
     }.bind(this))
     .catch(function(error) {
