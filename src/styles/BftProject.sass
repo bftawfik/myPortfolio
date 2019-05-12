@@ -6,7 +6,7 @@
   position: relative
   cursor: pointer
   .projectOverlay
-    background-color: $bftTrinityColor
+    background-color: $bftTrinityColorOpacity
     height: 100%
     width: 100%
     overflow: auto
@@ -15,6 +15,7 @@
     padding: 1.5em 1em
     @media screen and (max-width: $bft-grid-breakpoints-sm)
       overflow-x: hidden
+      padding: 0
     &.hided
       display: none
     .projectOverlayData
@@ -26,6 +27,9 @@
       width: 100%
       display: block
       text-align: center
+      h4
+        @media screen and (max-width: $bft-grid-breakpoints-sm)
+          margin: 0
       .links
         .externalLinks
           a
