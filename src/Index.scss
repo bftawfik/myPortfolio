@@ -1,0 +1,11 @@
+@import "./node_modules/vertical-rhythm-reset/dist/vertical-rhythm-reset";
+
+@import "./SharedStyles/colors";
+@import "./SharedStyles/variables";
+
+html,
+body,
+#root {
+  background-color: $bftTrinityColor;
+  color: $bftSecondaryColor;
+}
