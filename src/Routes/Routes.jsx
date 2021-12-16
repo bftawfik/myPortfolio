@@ -3,14 +3,14 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 import createBrowserHistory from "history/createBrowserHistory";
 import Container from "react-bootstrap/Container";
 
-import BftHeader from "../components/BftHeader";
-import BftNav from "../components/BftNav";
-import BftBio from "../components/BftBio";
-import BftAllProjects from "../components/BftAllProjects";
-import BftInfoAndContact from "../components/BftInfoAndContact";
-import BftFooter from "../components/BftFooter";
+import BftHeader from "../Components/BftHeader";
+import BftNav from "../Components/BftNav";
+import BftBio from "../Components/BftBio";
+import BftAllProjects from "../Components/BftAllProjects";
+import BftInfoAndContact from "../Components/BftInfoAndContact";
+import BftFooter from "../Components/BftFooter";
 
-import Whoops404 from "../components/Whoops404";
+import Whoops404 from "../Components/Whoops404";
 
 class Routes extends Component {
   constructor(props) {
