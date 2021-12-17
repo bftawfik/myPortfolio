@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App/App";
-import "./styles/vr.scss";
+import "./SharedStyles/vr.scss";
 import "./index.scss";
 
 import * as serviceWorker from "./serviceWorker";
