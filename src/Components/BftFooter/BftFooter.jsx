@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import '../styles/BftFooter.sass';
+import './BftFooter.scss';
 
 class BftFooter extends Component {
   render() {

@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 import '../styles/BftInfoAndContact.sass';
 import BftInfo from './BftInfo';
-import BftContacts from './BftContacts';
+import BftContacts from './BftContacts/BftContacts';
 import BftPreloader from './BftPreloader'
 
 class BftInfoAndContact extends Component {

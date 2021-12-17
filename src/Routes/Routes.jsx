@@ -8,7 +8,7 @@ import BftNav from "../Components/BftNav";
 import BftBio from "../Components/BftBio/BftBio";
 import BftAllProjects from "../Components/BftAllProjects/BftAllProjects";
 import BftInfoAndContact from "../Components/BftInfoAndContact";
-import BftFooter from "../Components/BftFooter";
+import BftFooter from "../Components/BftFooter/BftFooter";
 
 import Whoops404 from "../Components/Whoops404";
 
