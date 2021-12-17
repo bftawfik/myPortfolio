@@ -1,0 +1,19 @@
+@import "../../SharedStyles/colors";
+@import "../../SharedStyles/variables";
+
+.BftInfo {
+  padding: 1.4375em 1em;
+  border: 1px solid red;
+  margin: 0;
+  div {
+    &:nth-child(3) {
+      &:hover {
+        background: $bftSecondaryColorHighlight;
+      }
+      text-align: center;
+      a {
+        color: $bftSecondaryColor;
+      }
+    }
+  }
+}

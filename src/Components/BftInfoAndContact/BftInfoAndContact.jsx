@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import '../styles/BftInfoAndContact.sass';
-import BftInfo from './BftInfo';
-import BftContacts from './BftContacts/BftContacts';
-import BftPreloader from './BftPreloader'
+import './BftInfoAndContact.scss';
+import BftInfo from '../BftInfo/BftInfo';
+import BftContacts from '../BftContacts/BftContacts';
+import BftPreloader from '../BftPreloader'
 
 class BftInfoAndContact extends Component {
 
