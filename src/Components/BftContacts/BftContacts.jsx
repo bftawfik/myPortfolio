@@ -1,31 +1,43 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import './BftContacts.scss';
-import BftSingleContact from '../BftSingleContact/BftSingleContact';
+import "./BftContacts.scss";
+import BftSingleContact from "../BftSingleContact/BftSingleContact";
 
 class BftContacts extends Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state = {
-    }
+    this.state = {};
   }
 
   render() {
     // console.log(this.props.contactsData)
     return (
       <Row className="BftContacts">
-        {this.props.contactsData ? this.props.contactsData.map((group, ndx) => {
-          console.log(ndx);
-          return(
-            <Col xl="12" key={ndx} className="contactsGroups"><Row>
-              {group.map((contact, contactNdx) => ndx !== 2 ? <Col md="6"key={contactNdx}><BftSingleContact data={contact}/></Col> : <Col xl="12"key={contactNdx}><BftSingleContact data={contact}/></Col>)}
-            </Row></Col>
-          )
-        }) : ""}
+        {this.props.contactsData
+          ? this.props.contactsData.map((group, ndx) => {
+              console.log(ndx);
+              return (
+                <Col xl="12" key={ndx} className="contactsGroups">
+                  <Row>
+                    {group.map((contact, contactNdx) =>
+                      ndx !== 2 ? (
+                        <Col md="6" key={contactNdx}>
+                          <BftSingleContact data={contact} />
+                        </Col>
+                      ) : (
+                        <Col xl="12" key={contactNdx}>
+                          <BftSingleContact data={contact} />
+                        </Col>
+                      )
+                    )}
+                  </Row>
+                </Col>
+              );
+            })
+          : ""}
       </Row>
     );
   }
