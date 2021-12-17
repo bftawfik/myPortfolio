@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import '../styles/BftNav.sass';
+import './BftNav.scss';
 
 class BftNav extends Component {
 

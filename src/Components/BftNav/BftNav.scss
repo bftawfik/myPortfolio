@@ -1,0 +1,47 @@
+@import "../../SharedStyles/colors";
+@import "../../SharedStyles/variables";
+
+.BftNav {
+  margin-bottom: 3rem;
+  a {
+    color: $bftSecondaryColor;
+    text-decoration: none;
+    &:hover {
+      color: $bftSecondaryColorLinkHover;
+      h4:after {
+        display: block;
+      }
+    }
+    &.selected {
+      color: $bftSecondaryColorLinkHover;
+      h4:after {
+        display: block;
+      }
+    }
+    .navLink {
+      position: relative;
+      cursor: pointer;
+      margin: 0;
+      &:before {
+        content: " ";
+        width: 100%;
+        height: 0.0625rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        background-color: $bftPrimaryColor;
+      }
+      &:after {
+        content: " ";
+        width: 100%;
+        height: 1.25rem;
+        position: absolute;
+        left: 0;
+        bottom: 1rem/16 * 5;
+        display: none;
+        background-color: $bftSecondaryColorHighlight;
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@ import createBrowserHistory from "history/createBrowserHistory";
 import Container from "react-bootstrap/Container";
 
 import BftHeader from "../Components/BftHeader/BftHeader";
-import BftNav from "../Components/BftNav";
+import BftNav from "../Components/BftNav/BftNav";
 import BftBio from "../Components/BftBio/BftBio";
 import BftAllProjects from "../Components/BftAllProjects/BftAllProjects";
 import BftInfoAndContact from "../Components/BftInfoAndContact/BftInfoAndContact";
