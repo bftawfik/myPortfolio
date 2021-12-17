@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import '../styles/BftContacts.sass';
-import BftSingleContact from './BftSingleContact';
+import './BftContacts.scss';
+import BftSingleContact from '../BftSingleContact';
 
 class BftContacts extends Component {
 
