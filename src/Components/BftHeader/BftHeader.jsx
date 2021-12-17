@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import '../styles/BftHeader.sass';
+import './BftHeader.scss';
 
 class BftHeader extends Component {
   render() {

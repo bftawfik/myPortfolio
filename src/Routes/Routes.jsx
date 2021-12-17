@@ -3,7 +3,7 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 import createBrowserHistory from "history/createBrowserHistory";
 import Container from "react-bootstrap/Container";
 
-import BftHeader from "../Components/BftHeader";
+import BftHeader from "../Components/BftHeader/BftHeader";
 import BftNav from "../Components/BftNav";
 import BftBio from "../Components/BftBio/BftBio";
 import BftAllProjects from "../Components/BftAllProjects/BftAllProjects";
