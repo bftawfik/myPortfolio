@@ -1,0 +1,28 @@
+@import "../../SharedStyles/colors";
+@import "../../SharedStyles/variables";
+
+.BftAllProjects {
+  margin: 0;
+  padding: 0;
+  .allTags {
+    border-bottom: 1px solid $bftPrimaryColor;
+    padding-bottom: 1.5em;
+    span {
+      font-size: 0.75rem;
+      margin-right: 0.5em;
+      text-decoration: underline;
+      display: inline-block;
+      a {
+        color: $bftSecondaryColor;
+      }
+    }
+  }
+  .backLink {
+    a {
+      color: $bftSecondaryColor;
+      img {
+        margin-right: 1em;
+      }
+    }
+  }
+}

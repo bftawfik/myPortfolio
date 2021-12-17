@@ -1,0 +1,29 @@
+@import "../../SharedStyles/colors";
+@import "../../SharedStyles/variables";
+
+
+a.BftSingleContact {
+  position: relative;
+  display: block;
+  color: $bftSecondaryColor;
+  text-decoration: none;
+  overflow: auto;
+  &:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0.75em;
+    let: 0;
+    width: 100%;
+    height: 1.5em;
+    background-color: $bftSecondaryColorHighlight;
+  }
+  img {
+    display: inline-block;
+    margin: 0.71875em 1em 0.71875em 0;
+  }
+  p {
+    display: inline-block;
+    margin: 0.75em 0;
+  }
+}

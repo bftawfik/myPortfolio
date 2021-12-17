@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/vr.scss';
-import './styles/Index.sass';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App/App";
+import "./SharedStyles/vr.scss";
+import "./index.scss";
 
-import * as serviceWorker from './serviceWorker';
-import BftRoutes from './BftRoutes'
-ReactDOM.render(<BftRoutes />, document.getElementById('root'));
+import * as serviceWorker from "./serviceWorker";
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
