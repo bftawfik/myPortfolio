@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/BftQuote.sass';
+import '../../styles/BftQuote.sass';
 
 class BftQuote extends Component {
 

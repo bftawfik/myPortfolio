@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import './BftContacts.scss';
-import BftSingleContact from '../BftSingleContact';
+import BftSingleContact from '../BftSingleContact/BftSingleContact';
 
 class BftContacts extends Component {
 

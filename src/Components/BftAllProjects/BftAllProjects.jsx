@@ -5,8 +5,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import './BftAllProjects.scss';
-import BftProject from '../BftProject';
-import BftPreloader from '../BftPreloader';
+import BftProject from '../BftProject/BftProject';
+import BftPreloader from '../BftPreloader/BftPreloader';
 
 class BftAllProjects extends Component {
 

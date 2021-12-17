@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../styles/BftProject.sass';
+import '../../styles/BftProject.sass';
 
 class BftProject extends Component {
   constructor(props){

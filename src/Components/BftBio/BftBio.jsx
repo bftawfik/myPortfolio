@@ -4,8 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import './BftBio.scss';
-import BftQuote from "../BftQuote";
-import BftPreloader from '../BftPreloader';
+import BftQuote from "../BftQuote/BftQuote";
+import BftPreloader from '../BftPreloader/BftPreloader';
 
 class BftBio extends Component {
   render() {

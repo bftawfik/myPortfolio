@@ -10,7 +10,7 @@ import BftAllProjects from "../Components/BftAllProjects/BftAllProjects";
 import BftInfoAndContact from "../Components/BftInfoAndContact/BftInfoAndContact";
 import BftFooter from "../Components/BftFooter/BftFooter";
 
-import Whoops404 from "../Components/Whoops404";
+import Whoops404 from "../Components/Whoops404/Whoops404";
 
 class Routes extends Component {
   constructor(props) {
