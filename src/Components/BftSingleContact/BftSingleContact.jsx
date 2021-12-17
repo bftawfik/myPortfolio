@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../styles/BftSingleContact.sass';
+import './BftSingleContact.scss';
 
 
 class BftSingleContact extends Component {

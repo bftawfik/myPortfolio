@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
-import '../../styles/BftQuote.sass';
+import React, { Component } from "react";
+import "./BftQuote.scss";
 
 class BftQuote extends Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state = {
-    }
+    this.state = {};
   }
 
   render() {
-    let random, quote="", owner="";
-    if(this.props.quotesList){
-      random = Math.floor(Math.random() * this.props.quotesList.length)
+    let random,
+      quote = "",
+      owner = "";
+    if (this.props.quotesList) {
+      random = Math.floor(Math.random() * this.props.quotesList.length);
       quote = this.props.quotesList[random].body;
       owner = this.props.quotesList[random].owner;
     }

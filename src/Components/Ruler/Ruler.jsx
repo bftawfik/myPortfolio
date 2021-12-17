@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../styles/Ruler.sass';
+import './Ruler.scss';
 
 class Ruler extends Component {
   render() {
