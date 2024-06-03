@@ -82,15 +82,17 @@ class BftAllProjects extends Component {
             </span>
           ))}
         </Col>
-        {projects.map((projData, ndx) => (
+        {projects.map((projData, ndx) => {
+          const isActive = this.state.projectsState[ndx]? this.state.projectsState[ndx].isActive : false
+          return (
           <Col lg="6" md="12" key={ndx}>
             <BftProject
               data={projData}
               resetProjectsState={this.resetProjectsState.bind(this, ndx)}
-              isActive={this.state.projectsState[ndx].isActive}
+              isActive={isActive}
             />
           </Col>
-        ))}
+        )})}
         {this.props.match.params.filter ? (
           <Col xl="12" className="backLink">
             <NavLink to="/portfolio">

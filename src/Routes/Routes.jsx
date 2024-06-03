@@ -11,38 +11,40 @@ import BftInfoAndContact from "../Components/BftInfoAndContact/BftInfoAndContact
 import BftFooter from "../Components/BftFooter/BftFooter";
 
 import Whoops404 from "../Components/Whoops404/Whoops404";
-
+import {data} from "../json/bftawfik-github-io-export"
 class Routes extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      pages: {},
+      pages: data,
     };
   }
 
   componentDidMount() {
-    let defaultOptions = {
-      url: "",
-      method: "GET",
-      mode: "cors",
-      headers: {
-        "Access-Control-Allow-Origin": "*",
-      },
-      body: null,
-    };
-    fetch("https://bftawfik-github-io.herokuapp.com/", defaultOptions)
-      .then(function (response) {
-        return response.text();
-      })
-      .then(
-        function (text) {
-          // console.log(JSON.parse(text))
-          this.setState({ pages: JSON.parse(text) });
-        }.bind(this)
-      )
-      .catch(function (error) {
-        console.log("Request failed", error);
-      });
+    // let defaultOptions = {
+    //   url: "",
+    //   method: "GET",
+    //   mode: "cors",
+    //   headers: {
+    //     "Access-Control-Allow-Origin": "*",
+    //   },
+    //   body: null,
+    // };
+
+    // fetch("https://bftawfik-github-io.herokuapp.com/", defaultOptions)
+    //   .then(function (response) {
+    //     return response.text();
+    //   })
+    //   .then(
+    //     function (text) {
+    //       // console.log(JSON.parse(text))
+    //       this.setState({ pages: JSON.parse(text) });
+    //       console.log( JSON.parse(text) );
+    //     }.bind(this)
+    //   )
+    //   .catch(function (error) {
+    //     console.log("Request failed", error);
+    //   });
   }
 
   render() {
