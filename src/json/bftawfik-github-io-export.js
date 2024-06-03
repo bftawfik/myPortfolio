@@ -115,7 +115,7 @@ export const data = {
         externalLinks: {
           liveVersion: "https://app.pmidigiperf.com/",
         },
-        order: "1",
+        order: "22",
         projectImgPath: "/img/projects/digiperf",
         tags: [
           "Typescript",
@@ -137,7 +137,7 @@ export const data = {
         externalLinks: {
           github: "https://github.com/bftawfik/kinda-games",
         },
-        order: "2",
+        order: "21",
         projectImgPath: "/img/projects/kindagames",
         tags: [
           "Typescript",
@@ -156,7 +156,7 @@ export const data = {
         externalLinks: {
           github: "https://github.com/bftawfik/elegant-games",
         },
-        order: "3",
+        order: "20",
         projectImgPath: "/img/projects/elegantgames",
         tags: [
           "Typescript",
@@ -175,7 +175,7 @@ export const data = {
         externalLinks: {
           liveVersion: "https://www.azizsallab.com/",
         },
-        order: "4",
+        order: "19",
         projectImgPath: "/img/projects/sallab",
         tags: [
           "Javascript",
@@ -194,7 +194,7 @@ export const data = {
         externalLinks: {
           liveVersion: "https://uat.nasnav.org/tseppas-beta",
         },
-        order: "5",
+        order: "18",
         projectImgPath: "/img/projects/tseppas",
         tags: [
           "Javascript",
@@ -211,7 +211,7 @@ export const data = {
       },
       {
         externalLinks: "",
-        order: "6",
+        order: "17",
         projectImgPath: "/img/projects/homeetal",
         tags: [
           "Javascript",
@@ -228,7 +228,7 @@ export const data = {
       },
       {
         externalLinks: "",
-        order: "7",
+        order: "16",
         projectImgPath: "/img/projects/platino",
         tags: [
           "Javascript",
@@ -245,7 +245,7 @@ export const data = {
       },
       {
         externalLinks: "",
-        order: "8",
+        order: "15",
         projectImgPath: "/img/projects/rasport",
         tags: [
           "Javascript",
@@ -261,7 +261,7 @@ export const data = {
       },
       {
         externalLinks: "",
-        order: "9",
+        order: "14",
         projectImgPath: "/img/projects/levis",
         tags: [
           "Javascript",
@@ -281,7 +281,7 @@ export const data = {
             "https://github.com/bftawfik/Twitter_Bot_Tutorial_Node.js_and_Processing",
           liveVersion: "https://twitter.com/2Bftawfik",
         },
-        order: "10",
+        order: "13",
         projectImgPath: "/img/projects/bftawfikbot2",
         tags: [
           "Javascript",
@@ -299,7 +299,7 @@ export const data = {
           github: "https://github.com/bftawfik/myPortofolio",
           liveVersion: "https://bftawfik.github.io",
         },
-        order: "11",
+        order: "12",
         projectImgPath: "/img/projects/myportfolio",
         tags: [
           "Javascript",
@@ -318,7 +318,7 @@ export const data = {
       },
       {
         externalLinks: "",
-        order: "12",
+        order: "11",
         projectImgPath: "/img/projects/hawadeetnet",
         tags: ["Javascript", "Wordpress", "HTML5", "CSS", "Photoshop"],
         title: "Hawadeet.net",
@@ -328,7 +328,7 @@ export const data = {
           github: "https://github.com/bftawfik/spaceWarGame",
           liveVersion: "https://bftawfik.github.io/old-game-space-war/",
         },
-        order: "13",
+        order: "10",
         projectImgPath: "/img/projects/spacewargame",
         tags: [
           "Game",
@@ -348,7 +348,7 @@ export const data = {
           github: "https://github.com/bftawfik/old-game-red-riding-hood",
           liveVersion: "https://bftawfik.github.io/old-game-red-riding-hood/",
         },
-        order: "14",
+        order: "9",
         projectImgPath: "/img/projects/redridinghoodgame",
         tags: [
           "Game",
@@ -368,7 +368,7 @@ export const data = {
           github: "https://github.com/bftawfik/old-game-pirates-escape",
           liveVersion: "https://bftawfik.github.io/old-game-pirates-escape/",
         },
-        order: "15",
+        order: "8",
         projectImgPath: "/img/projects/piratesescapegame",
         tags: [
           "Game",
@@ -388,7 +388,7 @@ export const data = {
           github: "https://github.com/bftawfik/old-game-rabbit-run",
           liveVersion: "https://bftawfik.github.io/old-game-rabbit-run/",
         },
-        order: "16",
+        order: "7",
         projectImgPath: "/img/projects/rabbitrungame",
         tags: [
           "Unfinished",
@@ -410,7 +410,7 @@ export const data = {
           github: "https://github.com/bftawfik/old-game-the-grave-escape",
           liveVersion: "https://bftawfik.github.io/old-game-the-grave-escape/",
         },
-        order: "17",
+        order: "6",
         projectImgPath: "/img/projects/thegraveescapegame",
         tags: [
           "Unfinished",
@@ -432,7 +432,7 @@ export const data = {
           github: "https://github.com/bftawfik/mvcTodos",
           liveVersion: "https://bftawfik.github.io/mvcTodos/",
         },
-        order: "18",
+        order: "5",
         projectImgPath: "/img/projects/mvctodos",
         tags: ["Javascript", "HTML5", "CSS", "Github"],
         title: "MVC Todos",
@@ -442,7 +442,7 @@ export const data = {
           github: "https://github.com/bftawfik/old-game-memory",
           liveVersion: "https://bftawfik.github.io/old-game-memory/",
         },
-        order: "19",
+        order: "4",
         projectImgPath: "/img/projects/memorygame",
         tags: [
           "Game",
@@ -458,7 +458,7 @@ export const data = {
       },
       {
         externalLinks: "",
-        order: "20",
+        order: "3",
         projectImgPath: "/img/projects/memorygame2",
         tags: ["Game", "Javascript", "DOM", "HTML5", "CSS", "Git", "Github"],
         title: "Udacity Memory Game Project",
@@ -468,7 +468,7 @@ export const data = {
           github: "https://github.com/bftawfik/old-game-globby",
           liveVersion: "https://bftawfik.github.io/old-game-globby/",
         },
-        order: "21",
+        order: "2",
         projectImgPath: "/img/projects/globbyhtml5game",
         tags: [
           "Game",
@@ -489,7 +489,7 @@ export const data = {
           github: "https://github.com/bftawfik/canvasClock",
           liveVersion: "https://bftawfik.github.io/canvasClock/",
         },
-        order: "22",
+        order: "1",
         projectImgPath: "/img/projects/canvasclock",
         tags: [
           "Javascript",

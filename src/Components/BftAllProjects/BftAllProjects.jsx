@@ -46,7 +46,7 @@ class BftAllProjects extends Component {
             ).length > 0
         )
       : this.props.pageData.projects;
-    projects.sort((p1, p2) => p1.order - p2.order);
+    projects.sort((p1, p2) => p2.order - p1.order);
     let tags = !this.props.pageData
       ? []
       : this.props.pageData.projects
