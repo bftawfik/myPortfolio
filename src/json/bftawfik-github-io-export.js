@@ -113,6 +113,29 @@ export const data = {
     projects: [
       {
         externalLinks: {
+          liveVersion: "https://www.estatebook.com/",
+        },
+        order: "22",
+        projectImgPath: "/img/projects/estatebook",
+        tags: [
+          "Typescript",
+          "Javascript",
+          "Next.js",
+          "App directory",
+          "SSR",
+          "SEO",
+          "React.js",
+          "React Query",
+          "Zustand",
+          "Git",
+          "HTML5",
+          "CSS",
+          "Tailwind",
+        ],
+        title: "Estatebook",
+      },
+      {
+        externalLinks: {
           liveVersion: "https://app.pmidigiperf.com/",
         },
         order: "22",
